@@ -73,40 +73,47 @@
 
 
 # 14.
-a = int(input("TOOGOO UG: "))
-b = a // 24
-print(b , a%24)
+# a = int(input("TOOGOO UG: "))
+# b = a // 24
+# print(b , a%24)
 
 
-# task15
+
+# 15.
 # a,b = map(int, input().split())
 # print(a*24+b)
 
-# task16
+
+# 16.
 # s = int(input())
 # print(s // 12, s % 12)
 
-# task17
+
+# 17.
 # s,c = map(int, input().split())
 # print(s*12+c) 
 
-# task18
+
+# 18.
 # a = list(map(int, input().split()))
 # print(max(a))
 
-# task19
+
+# 19.
 # a = list(map(int, input().split()))
 # print(min(a))
 
-# task 20
+# 20.
 # a = list(map(int, input().split()))
 # print(max(a))
 
-# task21
+
+# 21.
 # a = list(map(int, input().split()))
 # print(min(a))
 
-# task 22
+
+# 22.
 # a = list(map(int, input().split()))
 # s = 0
 # for i in range(len(a)):
@@ -114,7 +121,9 @@ print(b , a%24)
 #         s +=a[i]
 # print(s)
 
-# task 23
+
+
+# 23.
 # a = list(map(int, input().split()))
 # s = 1
 # for i in range(len(a)):
@@ -122,15 +131,17 @@ print(b , a%24)
 #         s *=a[i]
 # print(s)
 
-# task 24
-# a = list(map(int, input().split()))
+
+# 24.
+# a = list(map(int, input("list ug: ").split()))
 # t = 0
 # for i in range(len(a)):
 #     if a[i] % 2 == 0:
 #         t +=a[i]
 # print(t)
 
-# task 25
+
+# 25.
 # a = list(map(int, input().split()))
 # t = 1
 # for i in range(len(a)):
@@ -138,7 +149,8 @@ print(b , a%24)
 #         t *=a[i]
 # print(t)
 
-# task 26
+
+# 26.
 # a = list(map(int, input().split()))
 # t = 0
 # for i in range(len(a)):
@@ -146,13 +158,15 @@ print(b , a%24)
 #         t +=1
 # print(t)
 
-# task 27
+
+# 27.
 # a = list(map(int, input().split()))
 # for i in range(len(a)):
 #     if a[i] % 3 == 0:
 #         print(a[i])
 
-# task 28
+
+# 28.
 # a = list(map(int, input().split()))
 # t = 0
 # for i in range(len(a)):
@@ -160,7 +174,8 @@ print(b , a%24)
 #         t += a[i]
 # print(t)
 
-# task 29
+
+# 29.
 # a = int(input())
 # if a > 10:
 #     print("Yes")
@@ -174,7 +189,9 @@ print(b , a%24)
 # else:
 #     print("No")
 
-# task 31
+
+
+# 31.
 # a = int(input())
 # b = int(input())
 # n = int(input())
@@ -191,26 +208,35 @@ print(b , a%24)
 # else:
 #             print("no")
 
-# task 32
+
+
+# 32.
 # print("IOI")
 
-# task 33
+
+
+# 33.
 # for i in range(3):
 #     print("IOI")
 
-# task 34
+
+
+# 34.
 # n = int(input())
 # for i in range(n):
 #     print("IOI")
 
-# task 35
+
+
+# 35.
 # n = int(input())
 # s = 0
 # for i in range(1, n+1):
 #     s += i
 # print(s)
 
-# task 36
+
+# 36.
 # n = int(input())
 # fact = 1 
 # i = 1
@@ -219,7 +245,9 @@ print(b , a%24)
 #     i+=1
 # print(fact)
 
-# task 37
+
+
+# 37.
 # n = int(input())
 # s = 0
 # i = 1
@@ -228,7 +256,8 @@ print(b , a%24)
 #     i +=1
 # print(s)
 
-# task 38
+
+# 38.
 # n, a = map(int, input().split())
 # print(n*a)
 
@@ -236,18 +265,22 @@ print(b , a%24)
 # n = int(input())
 # print(2 **n)
 
-# task 40
+
+
+# 40.
 # a,n = map(int, input().split())
 # print(a ** n)
 
-# task 41
+
+# 41.
 # a = int(input())
 # if a > 3:
 #     print("Tsentssen")
 # else:
 #     print("Tseneegui")
 
-# task 42
+
+# 42.
 # a = int(input())
 # if a >= 5 :
 #     print("tsenssen")
@@ -260,7 +293,9 @@ print(b , a%24)
 # else:
 #     print("unasan")
 
-# task 43
+
+
+# 43.
 # score = int(input())
 # if score < 0 or score > 100:
 #     print("invalid score")
@@ -275,7 +310,9 @@ print(b , a%24)
 # else:
 #     print("F")
 
-# task 44
+
+
+# 44.
 # n = int(input())
 # if 1 <= n <= 7 : 
 #     print("Friday")
@@ -291,36 +328,45 @@ print(b , a%24)
 # else:
 #     print("Winter")
 
-# task 46
+
+
+# 46.
 # a , b , c = map(int, input().split())
 # if (a + b> c) and (a + c > b) and (b + c > a):
 #     print("Yes")
 # else:
 #     print("No")
 
-# task 47
+
+# 47.
 # n = int(input())
 # for i in range (1,11):
 #     print(n, "*", i , "=", n* i)
 
-# task 48
+
+
+# 48.
 # a,n = map(int, input().split())
 # for n in range(1,11):
 #     print(a, "*", n, "=", a**n)
 
-# task 49
+
+# 49.
 # a, b, c= map(int, input().split())
 # n = a*b-c
 # print(a)
 
-# task 50
+
+
+# 50.
 # f,k = map(int, input().split())
 # n = int(input())
 # floor = (n-1) // k +1
 # door = (n-1) % k +1
 # print(floor, door)
 
-# task 51
+
+# 51.
 # f,k,m = map(int, input().split())
 # n = int(input())
 # a = f * m
@@ -329,30 +375,41 @@ print(b , a%24)
 # orts = (n -1) % m +1
 # print(floor, door, orts)
 
-# task 52
+
+# 52.
 # n = int(input())
 # print( n* (n + 1) // 2)
 
-# task 53
+
+
+# 53.
 # n = int(input())
 # print( n* (n + 1) * ( 2 * n + 1)// 6)
 
-# task 54
+
+
+# 54.
 # n = int(input())
 # print (((n+1)// 2)** 2)
 
-# task 55
+
+
+# 55.
 # n = (input())
 # print(n[0] )
 
-# task 56
+
+
+# 56.
 # n = (input())
 # a = 0
 # for i in n:
 #     a +=int(i)
 # print(a)
 
-# task57
+
+
+# 57.
 # n = (input())
 # a = 0
 # for i in n :
@@ -360,7 +417,9 @@ print(b , a%24)
 #         a +=int(i)
 # print(a)
 
-# task 58
+
+
+# 58.
 # n = (input())
 # a = 0
 # for i in n :
@@ -368,44 +427,60 @@ print(b , a%24)
 #         a +=1
 # print(a)
 
+
+
 # task 59
 # n , m= input().split()
 # a = n.count(m)
 # print(a) 
 
-# task 60
+
+
+# 60.
 # n = [4,6,3,2]
 # print(max(n))
 
-# task 61
+
+
+# 61.
 # n = [9,6,4,9]   
 # print(min(n))
 
-# task 62
+
+
+# 62.
 # s = input().split()
 # r = s[::-1]
 # res = int(r)
 # print(res)
 
-# task 63
-# n = int(input())
+
+
+# 63.
+# n = int(input("TOOGOO UG: "))
 # a = str(n) [::-1]
 # print(a)
     
-# task 64
+
+
+# 64.
 # n = int(input())
 # if n ** 2 != 0:
 #     print("Yes")
 # else:
 #     print("No")
 
-# task 65
+
+
+# 65.
 # n = int(input())
 # while n != 0 and n % 3 == 0:
 #     n = n// 3
 # print(n)
 
-# task 66
+
+
+# 66.
 # n = int(input())
 # i = 1
 # while n% i == 0:
@@ -418,13 +493,17 @@ print(b , a%24)
 # else:
 #     print("No")
 
-# task 67
+
+
+# 67.
 # a, n = map(int, input().split())
 # while n != 0:
 #     a,n = n, a %n
 # print(a)
 
-# task 68
+
+
+# 68.
 # a, b = map(int, input().split())
 # if a == 0 or b == 0:
 #     print(0)
@@ -436,7 +515,9 @@ print(b , a%24)
 #     l = (x // f) * y
 # print(l)
 
-# task 69
+
+
+# 69.
 # a, b = map(int, input().split())
 # x, y = a, b
 # while y != 0:
@@ -444,60 +525,80 @@ print(b , a%24)
 # g = x
 # print(f"{a // g}/{b // g}")
 
-# task 70
+
+
+# 70.
 # n = int(input())
 # for i in range(n):
 #     print(n, end="")
 # print()  
 
-# task 71
+
+
+# 71.
 # n = int(input())
 # for n in range(n):
 #     print(n, end=" ")
 # print()  
 
-# task 72
+
+
+# 72.
 # n = int(input())
 # for i in range(9, n -1, -1):
 #     print(i)
 
-# task 73
+
+
+# 73.
 # n = int(input())
 # for i in range(n):
 #     for j in range(1, n + 1):
 #         print(j, end="")
 # print()
 
-# task 74
+
+
+# 74.
 # n = int(input())
 # row = " ".join(map(str, range(n, 0, -1)))
 # for n in range(n):
 #     print(row)
 
-# task 75
+
+
+# 75.
 # n = int(input())
 # for i in range(n, 0, -1):
 #     row = " ".join(map(str, range(1, i + 1)))
 #     print(row)
 
-# task 76
+
+
+# 76.
 # n = int(input())
 # for i in range(1, n + 1):
 #     row = " ".join(map(str, range(n, n - i, -1)))
 #     print(row)
 
-# task 77
+
+
+# 77.
 # n = int(input())
 # for i in range(n, 0, -1):
 #     row = " ".join(map(str, range(i, 0, -1)))
 #     print(row)
 
-# task 78
+
+
+# 78.
 # k = int(input())
 # a = (k + 3) * (k + 2) * (k + 1) // 6
 # print(a)
 
-# task 79
+
+
+# 79.
 # a,b,c = map(int, input().split())
 # if a * a + b*b == c*c:
 #     print("Right")
@@ -506,7 +607,9 @@ print(b , a%24)
 # else:
 #     print("Acute")
 
-# task 80
+
+
+# 80.
 # a,b, c = map(int, input().split())
 # max_val = a
 # if b >max_val :
@@ -529,7 +632,10 @@ print(b , a%24)
 #     else:
 #         lcm += max_val
 
-# task 81
+
+
+
+# 81.
 # a,b = map(int, input().split())
 # while a > 0:
 #     if b > 0:
@@ -546,7 +652,9 @@ print(b , a%24)
 #     else:
 #         break
 
-# task 82
+
+
+# 82.
 # n = int(input())
 # if n > 0 :
 #     new = n * 10 + 1
@@ -555,7 +663,9 @@ print(b , a%24)
 # else:
 #     print()
 
-# task 83
+
+
+# 83.
 # a, b = map(float, input().split())
 # target = a * a + b * b
 # c = target / 2.0
@@ -571,19 +681,26 @@ print(b , a%24)
 #         c = 0.5 * (c + target / c)
 # print(c)
 
-# task 84
+
+
+
+# 84.
 # a, b, c = map(float, input().split())
 # p = (a + b + c) / 2
 # S = (p * (p - a) * (p - b) * (p - c)) ** 0.5
 # print(S)
 
-# task 85
+
+
+# 85.
 # L = float(input())
 # PI = 3.141592
 # S = (L ** 2) / (4 * PI)
 # print(S)
 
-# task 86
+
+
+# 86.
 # x1, x2 = map(int, input().split())
 # dist1 = ((x1 - x2) ** 2) ** 0.5
 # x1_2d, y1_2d, x2_2d, y2_2d = map(int, input().split())
@@ -594,25 +711,36 @@ print(b , a%24)
 # print(dist2)
 # print(dist3)
 
-# task 87
+
+
+
+# 87.
 # a, b = map(float, input().split())
 # arithmetic_mean = (a + b) / 2
 # geometric_mean = (a * b) ** 0.5
 # print(arithmetic_mean, geometric_mean)
 
-# task 88
+
+
+# 88.
 # n = int(input())
 # total_sum = (n * (n + 1) // 2) ** 2
 # print(total_sum)
 
-# task 89
+
+
+
+# 89.
 # r = float(input())
 # PI = 3.141592
 # area = PI * (r ** 2)
 # circumference = 2 * PI * r
 # print(area, circumference)
 
-# task 90
+
+
+
+# 90.
 # n = int(input())
 # total_sum = 0
 # for i in range(n):
@@ -620,7 +748,10 @@ print(b , a%24)
 #     total_sum += num
 # print(total_sum)
 
-# task 91
+
+
+
+# 91.
 # n = int(input())
 # total_sum = 0
 # count = 0
@@ -631,7 +762,9 @@ print(b , a%24)
 #     count += 1
 # print(total_sum)
 
-# task 92
+
+
+# 92.
 # n = int(input()) 
 # bad_grades_count = 0  
 # for _ in range(n):
@@ -640,7 +773,9 @@ print(b , a%24)
 #         bad_grades_count += 1 
 # print(bad_grades_count)  
 
-# task 93
+
+
+# 93.
 # n = int(input())
 # odd_count = 0     
 # even_count = 0   
@@ -655,38 +790,54 @@ print(b , a%24)
 # else:
 #     print("NO")
 
-# task 94
+
+
+
+# 94.
 # n = int(input())
 # a = list(map(int, input().split()))
 # print(max(a))
 
-# task 95
+
+
+# 95.
 # n = int(input())
 # a = list(map(int, input().split()))
 # print(min(a))
 
-# task 96
+
+
+# 96.
 # n = int(input())
 # elements = list(map(int, input().split()))
 # target = int(input())
 # count = elements.count(target)
 # print(target, count)
 
-# task 97
+
+
+
+# 97.
 # n = int(input())
 # elements = list(map(int, input().split()))
 # max_value = max(elements)
 # max_index = elements.index(max_value) + 1
 # print(max_value, max_index)
 
-# task 98
+
+
+
+# 98.
 # n = int(input())
 # a = list(map(int, input().split()))
 # max_v= max(a)
 # count = a.count(max_v)
 # print(max_v, count)
 
-# task 99
+
+
+
+# 99.
 # n = int(input())
 # elements = list(map(int, input().split())) 
 # target = int(input())
@@ -700,7 +851,9 @@ print(b , a%24)
 # else:
 #     print("NO")
 
-# task 100
+
+
+# 100.
 # n = int(input())
 # factorial = 1
 # for i in range(1, n + 1):
