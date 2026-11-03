@@ -1,0 +1,264 @@
+#
+# 1
+#.
+#  for i in range(5):
+#     print("Сайн уу")
+
+# # 2.
+# for i in range(0,10):
+#     print(i)
+    
+# 3.
+# for i in range(1,11):
+#     print(i)
+
+
+# 4.
+# for i in range(10,0,-1):
+#     print(i)
+
+
+# # 5.
+# name= input()
+# for i in range(5):
+#     print(name)
+
+
+
+# # 6
+# total=0
+# for i in range(1,11):
+#     total=total+i
+# print("Нийлбэр: ", total)
+
+
+# 7.
+# total=0
+# for i in range(1,101):
+#     total=total+i
+# print("Нийлбэр: ", total)
+
+
+# 8.
+# total=0
+# for i in range(2,21,2):
+#     total=total+i
+# print("тэгш тооны нийлбэр: ", total)
+
+
+# 9.
+# total=0
+# for i in range(3,31,3):
+#     total=total+i
+# print("3-t huvaagdah toonii niilber: ", total)
+
+
+# 10.
+# n=int(input())
+# total=0
+# for i in range(1,n+1):
+#     total=total+i
+# print(total)
+
+
+# 11.
+# count=0
+# for i in range(2,21,2):
+#     count+=1
+# print("tegsh tooni niilber:", count)
+
+
+# 12.
+# count=0
+# for i in range(5,101,5):
+#     count+=1
+# print("5-d huvaagdah too: ",count)
+
+
+# 13.
+# count=0
+# for i in range(3,51,3):
+#     count+=1
+# print("3-t huvaagdah too: ", count)
+
+
+# 14.
+# count=0
+# for i in range(2,21,2):
+#     count+=1
+# print("tegsh too: ", count)
+
+# 14.
+# count=0
+# for i in range(1,21,2):
+#     count+=1
+# print("sondgoi too: ", count)
+
+
+15.
+# n=int(input())
+# count=0
+# for i in range(1,n):
+#     if i%7==0:
+#      count = count+1
+# print("7-d huvaagdah too: ", count)
+
+
+# 16.
+# total=0
+# for i in range(2,101,2):
+#     total+=i
+# print("niilber: ", total)
+
+# 16.
+# count=0
+# for i in range(2,101,2):
+#     count+=1
+# print("too shirheg: ",count)
+
+
+# 17.
+# count=0
+# for i in range(1,101):
+#     if i%3==0 or i%5==0:
+#      count+=1
+# print("3 esvel 5-d huvaagdah too: ",count)
+
+
+# 18.
+# total=0
+# for i in range(3,101,3):
+#     total+=i
+# print("3-t huvaagdah toonii niilber: ", total)
+
+
+# 19.
+# n=int(input())
+# for i in range(n):
+ 
+
+# 20.
+# n=int(input())
+# for i in range(n):
+
+
+# 21.
+# n=int(input("heden too oruulah ve andaaa???: "))
+# hamgiin_baga =None
+# for i in range(n):
+#     too=int(input("too oruul: "))
+#     if hamgiin_baga is None or too<hamgiin_baga:
+#      hamgiin_baga = too
+# print("hamgiin baga too: ", hamgiin_baga)
+
+
+
+
+
+
+
+
+
+
+
+
+# 28.
+# for i in range(1,101):
+#  if i
+
+
+
+
+
+
+
+# 0.NEMELT ARUUUUUUUN BODLOGO SHUUUUUUUUUUUUUUUUUUUUUUUU.
+
+# 1.
+# for i in range(10,51):
+#     if i % 3== 0:
+#         print(i)
+
+
+# 2.
+# n=int(input())
+# for i in range(1,n+1):
+#     if i %2==0:
+#         print(i)
+
+
+  
+# 3.
+# total=0
+# for i in range(1,51):
+#  if i %2 !=0:
+#   total+=i
+# print(total)
+
+
+
+# 4.
+# count=0
+# for i in range(1,101):
+#  if i % 4==0:
+#   count+=1
+# print("4-t huvaagdah too: ", count)
+
+
+
+# 5.
+# niilber = 0
+# number = int(input("heden too bn weee : "))
+# for i in range(number):
+#     too = int(input("too oruul : "))
+#     if too > 0:
+#         niilber += too
+# print(niilber)
+
+
+# 6.
+# niilber=0
+# for i in range(10,101):
+#     if i % 5== 0:
+#         niilber+=i
+# print("5-t huvaagdah toonii niilber: ", niilber)
+
+
+# 7.
+# n=int(input())
+# niilber=0
+# for i in range(1,6):
+#     niilber+=i
+# print("tsipruudiin niilber: ",niilber)
+
+
+# 8.
+# count=0
+# for i in range(1,101):
+#     if i % 7==0 and count < 5:
+#         count += 1
+#         print(i)
+
+
+# 9.
+# a = 0
+# for i in range(1,51):
+#     if i % 2 == 0 and i < 50:
+#         a = i
+# print(a)
+
+
+
+# 10.
+
+
+# niilber = 0
+# number = int(input("heden too bn weee : "))
+# for i in range(number):
+#     too = int(input("too oruul : "))
+#     if too > 0:
+#         niilber += too
+# print(niilber)
+
+
+

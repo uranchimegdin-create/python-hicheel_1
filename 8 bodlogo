@@ -1,0 +1,121 @@
+# 1. Өгүүлбэр өгөгдөнө. split() болон len() ашиглан хэдэн үгтэйг ол.
+# text=input() 
+# words=text.split()
+# print(len(words))
+
+
+2. # Зайгаар тусгаарлагдсан үгс өгөгдөнө. Хамгийн урт үгийг хэвлэ.
+# text=input()
+# words=text.split()
+# print(max(words,key=len))
+
+
+# 3. Тэмдэгт мөр өгөгдөнө. а, э, и, о, у, ө, ү үсгүүд нийт хэд байгааг ол.
+# vgs=input().lower()
+# count=0
+# for i in vgs:
+#     if i=="а" or i=="э" or i=="и" or i=="о" or i=="у" or i=="ө" or i=="ү":
+#      count+=1
+# print(count)
+
+
+# 4.Өгүүлбэр болон хайх нэг үг өгөгдөнө. Тухайн үг өгүүлбэрт хэдэн удаа орсныг count() ашиглан ол.
+# text="python java python c python"
+# print(text.count("python"))
+
+
+# 4.Өгүүлбэр болон хайх нэг үг өгөгдөнө. Тухайн үг өгүүлбэрт хэдэн удаа орсныг count() ашиглан ол.
+# text = input().split()
+# words = input()
+# print(text.count(words))
+
+
+# 5.Үгсийг цагаан толгойн дараалалд оруулах
+#  Зайгаар тусгаарлагдсан үгсийг split(), sort(), join() ашиглан эрэмбэл.
+# a,b,c=input().split()
+
+
+
+# 1.
+# tax=True
+# t=int(input())
+# if t>=18:
+#     if tax:
+#         print("orj bolnoo andaaa")
+# else:
+#     print("bolhguieee andaa")
+
+
+# 2.
+# username=input("username oruul: ")
+# if username==("hahah"):
+#     password=int(input("password oruul: "))
+#     if password==(2222):
+#         print("yesss")
+# else:
+#     print("nooooo")
+
+
+
+# 3. ATM BODLOGO.
+# balance=int(input())
+# if 0<=balance:
+#         amount=int(input())
+#         if balance > amount:
+#             print("mongo garlaa")
+#         else:
+#             print("mongo chin hurku")
+# else:
+#     print("dansanda monggue zaluu bn")
+
+
+
+# 4.WHILE BODLOGO.
+# i=1
+# while i<=5:
+#     print(i)
+#     i+=1
+
+
+# number=[10,23,35,21,7]
+# print(max(number))
+# print(min(number))
+# number.append(40)
+# number.remove(21)
+# number.insert(3,55)
+# print(sum(number))
+# print(number)
+
+
+# 6.ZAI ARILGAH.
+# a=("   gahai   ")
+# print(a.strip())
+
+
+# 7.TASLALAAR SALGAH.
+# text="bat dorj bold"
+# a = text.split(" ")
+# print(a)
+
+
+# 8.
+# text=["a", "b", "c"]
+# a=",".join(text)
+# print(a)
+
+
+
+# 9.BUH USEG TOMRUUL/JIJIGRUUL
+# text="Mongol Mal"
+# print(text.upper())
+# print(text.lower())
+
+
+# 10.TOM JIJIG M USEG TOOL!
+# text="Mongol Mal"
+# text1=text.lower()
+# text2=text.upper()
+# print(text1.count("m"))
+# print(text2.count("M"))
+
+
