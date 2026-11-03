@@ -1,0 +1,444 @@
+# udur = input())
+# if udur == "6" or udur == "7":
+#     print("amraltin udur")
+# else:
+#     print("ajliin udur")
+
+
+# score = int(input())
+# if score < 0 or score > 100:
+#     print("invalid score")
+# elif score >= 90:
+#     print("A")
+# elif score >= 80:
+#     print("B")
+# elif score >=70:
+#     print("C")
+# elif score >=60:
+#     print("D")
+# else:
+#     print("F")
+
+
+
+#username = input("username : ")
+#if username == "temuulen" :
+#    password = input("password : ")
+#    if password == "0000":
+#        print("logged in")
+ #   else:
+#        print("password incorrect")
+#else:
+#    print("username incorrect")
+
+# age = int(input("Nas : "))
+# if age >= 18: 
+#     ticket = input("ticket baigaa yu?")
+#     if ticket =="baigaa":
+#         print ("orj bolnoo.")
+#     else:
+#         print("tivket heregtei")
+# else: 
+#     print("tom bolood ireerei")
+
+
+# 30 shirheg bodlogo:bodoltttttttttttttttt;
+
+# 1.
+# name=input("Bat: ")
+# print("Сайн байна уу,Bat")
+
+
+# 2.
+# a,b =map(int, input("2too: ").split())
+# print("niilber: ", a+b)
+
+# 3.
+# a,b = map(int, input("2 too: ").split())
+# print("talbai: ", a*b)
+
+# 4.
+# a =int(input("1too: "))
+# print("dia metr: ", a*2)
+
+# 5.
+# a = int(input("1 too: "))
+# print("nemegdeh nas: ", a+1)
+
+# 6.
+# a = int(input("1too: "))
+# print("parangeit: ", a*9//5+32)
+
+# 7.
+# n=47
+# a=4
+# s=7
+# print("tsipruudiin niilber: ", a+s)
+
+# 8.
+# n=46
+# a=46//10
+# b=46%10
+# print(" urvuu: ",b*10+a)
+
+# 9.
+# m=int(input())
+# hour=m//60
+# minute=m%60
+# print(hour,minute)
+
+# 10.
+# s=int(input())
+# minut=s//60
+# sekund=s%60
+# print(minut,sekund)
+
+# 11.
+# too = int(input())
+# if too==0:
+#     print("zero")
+# elif too > 0:
+#      print("positive")
+# else:
+#     print("negative")
+
+# 12.
+# too = int(input())
+# if too % 2 == 0:
+#     print("Even")
+# else:
+#     print("Odd")
+
+
+
+# 13.
+# nas = int(input())
+# if nas >18:
+#     print("adult")
+# else:
+#     print("child")
+
+# 14.
+# a,b = map(int,input().split())
+# if a>b:
+#     print("a")
+# else:
+#     print("b")
+
+
+# 15.
+# a,b,c =map(int, input().split())
+# if a<c and b<c:
+#     print("YES")
+# else:
+#     print("NO")
+
+
+    
+# 16.
+# score = int(input())
+# if score < 0 or score > 100:
+#     print("invalid score")
+# elif score >= 90:
+#     print("A")
+# elif score >= 80:
+#     print("B")
+# elif score >= 70:
+#     print("C")
+# elif score >= 60:
+#     print("D")
+# else:
+#     print("F")
+
+
+# 17.
+# too =int(input())
+# if too//3:
+#     print("yes")
+# elif too%3:
+#     print("no")
+
+# 18.
+# a,b,c = map(int,input("3 too: ").split())
+# print("hamgiin baga too: " , b )
+
+# 19.
+# too = int(input())
+# if "10 <= x <= 50":
+#     print("yes")
+# else:
+#     print("no")
+
+# 20.
+# nas = int(input())
+# if "nas<12":
+#     print("enter")
+# else:
+#     print("no")
+
+# 21.
+# onoo , irts = map(int,input("2 too: ").split())
+# if onoo <= 60 and irts >= 80 :
+#     print("pass")
+# else:
+#     print("fail")
+
+# 22.
+# username = input("enter your username: ")
+# password = input("enter your password: ")
+# if username == "python123" and password == "python123":
+#     print("correct")
+# else:
+#     print("wrong")
+
+
+# 23.
+# too1, too2, too3 =map(int, input().split())
+# if too1<too2<too3:
+#     print("dundah too ni : ", too2)
+# elif too2<too1<too3:
+#     print("dundah too ni : ", too1)
+# elif too1<too3<too2:
+#     print("dundah too ni: ", too3)
+# elif too3<too2<too1:
+#     print("dundah too: ", too2)
+# elif too2<too3<too1:
+#     print("dundah too:", too3)
+# else:
+#     print("dundah too:", too1)
+
+
+# 23. IH TOOG NI OLBOL
+# too1, too2, too3 = map(int,input().split())
+# if too1<too2>too3:
+#     print("ih too ni: ", too2)
+# elif too2<too1>too3:
+#     print("ih too ni: ", too1)
+# else:
+#     print("ih too ni: ", too3)
+
+# 24.
+# irts,onoo = map(int, input().split())
+# if irts >=90 and onoo >=90:
+#     print("Excelelent")
+# elif irts>=70 and onoo >=80:
+#     print("good")
+# else:
+#     print("Need Improvement")
+
+# 25.
+# udur = int(input())  if udur < 1 or udur > 7 
+# if 1<= udur <=5:
+#     print("workday")
+# elif 6<= udur <=7:
+#     print("weekday")
+# else:
+#     print("wrong")
+
+
+# 26.
+# too =int(input())
+# if too>100 and too%2==0:
+#     print("large even")
+# elif too > 100:
+#     print("large")
+# elif 0<= too <=100:
+#     print("medium")
+# else:
+#     print("negative")
+
+# 27.
+# price,age= map(int, input().split())
+# if age<18:
+#     price==price*80//100
+# elif age>=60:
+#     price==price*70//100
+    
+
+
+
+# 28.
+# a,b,c = map(int,input().split())
+# if a+c>b and a+b>c and c+b>a:
+#     print("yes")
+# else:
+#     print("no")
+
+
+# 29.
+# age,password,admin =input().split()
+# age=int(age)
+# if age<18:
+#     print("DENIED")
+# elif password != "1234":
+#     print("WRONG PASSWORD")
+# elif admin == "yes":
+#     print("ADMIN ACCESS")
+# else:
+#     print("USER ACCESS")
+
+
+# 30.
+# uldegdel,avahmungu =map(int,input().split())
+# if avahmungu <= 0:
+#     print("Invalid amount")
+# elif avahmungu > uldegdel:
+#     print("Insufficient balance")
+# elif avahmungu%1000!=0:
+#     print("Invalid amount")
+# else:
+#     uldegdel= uldegdel-avahmungu
+#     print(f"Remaining: {uldegdel}72944")
+
+
+
+
+# 0.ARUUUUUUUUUUUUN SHIRHEG BODLOGO.BODOLTTTTTTTTTTTTT
+
+# 1.
+# year=int(input())
+# if year%400==0 or (year%4==0 and year%100 !=0):
+#     print("YES")
+# else:
+#     print("NO")
+
+
+# 2.
+# a,b,c = map(int,input().split())
+# if a+b<=c or a+c<=b or b+c<=a:
+#     print("NOT A TRIANGLE")
+# elif a==b==c:
+#     print("Equilateral")
+# elif a==b or a==c or c==b:
+#     print("Isosceles")
+# elif a<b<c or a<c<b or b<c<a or b<a<c or c<a<b or c<b<a:
+#     print("Scalene")
+# else:
+#     print("TRIANGLE")
+
+
+# 3.
+# nas,udur =input().split()
+# nas=int(nas)
+# if nas<=12 or nas>=60:
+#     print(5000)
+# elif udur=="weekend":
+#     print(12000)
+# else:
+#     print(10000)
+
+
+# 4.
+# username,password,tolow=input().split()
+# if username=="admin" and password=="1234":
+#     if tolow=="blocked":
+#         print("ACCOUNT BLOCKED")
+#     else:
+#         print("WELCOME")
+# else:
+#     print("LOGIN FAILED")
+
+
+# 5.
+# x1,y1,x2,y2 = map(int,input().split())
+# x,y= map(int,input().split())
+# if x1<x<x2 and y1<y<y2:
+#    print("INSIDE")
+# else:
+#     print("OUTSIDE")
+
+
+# 6.
+# a1,b1,a2,b2=map(int,input().split())
+# if a1<=b2 and a2<=b1:
+#     print("YES")
+# else:
+#     print("NO")
+
+
+# 7.
+# day, month, year=map(int,input("odr sar jil oruul ").split())
+# if month < 1 and month > 12 or day < 1:
+#     print("INVALID")
+# elif month == 1 or month == 3 or month == 5 or month == 7 or month == 8 or month == 10 or month == 12:
+#     if day <= 31:
+#         print("valid")
+#     else:
+#         print("invalid")
+# elif month == 4 or month == 6 or month == 9 or month == 11:
+#     if day <= 30:
+#         print("valid")
+#     else:
+#         print("invalid")
+# elif month == 2:
+#     if year % 400 == 0 or (year % 4 == 0 and year % 100 != 0): 
+#         print("valid")
+#     elif year % 400 != 0 and day <= 28:
+#         print("valid")
+#     else:
+#         print("invalid")
+# else:
+#     print("invalid")
+    
+
+
+
+# 8.
+# mor,bagana=map(int,input().split())
+# if mor<1 or mor>8 or bagana<1 or bagana>8:
+#     print("INVALID")
+# elif (mor+bagana)%2==0:
+#     print("BLACK")
+# else:
+#     print("WHITE")
+
+
+# 9.
+# dun,irts,zorchil=map(int,input().split())
+# if dun>=90 and irts>=95 and zorchil==0:
+#     print("FULL")
+# elif dun>=80 and irts>=90 and zorchil<=1:
+#     print("HALF")
+# else:
+#     print("NONE")
+
+
+# 10.
+# a,b=input().split()
+# if a==b:
+#     print("DRAW")
+# elif (a=="chuluu" and b=="haich") or (a=="haich" and b=="tsaas") or (a=="tsaas" and b=="chuluu"):
+#     print("PLAYER1")
+# else:
+#     print("PLAYER2")
+
+
+# 0.ARUUUUUUUUUUNNN SHIRHEG BODLOGO,PART TWOOOOOOOOOOOOOOOOO*
+
+1.
+# a,b,c=map(int,inpout().split())
+# if a<b<c and a<c<b and b<a<c and b<c<a and c<a<b and c<b<a:
+#     print("BAGAAS NI IH RUU EREMBLE")
+# elif a<=b<c and a<=c<b and b<=c<a and b<=a<c and c<=a<b and c<=b<a:
+#     print("BAGAAS NI IH RUU,TSIPR DAVTAGDANA")
+# else:
+#     print("IHEES NI BAGA RUU EREMBLE")
+
+
+# 1.
+# a,b,c=map(int,input("bagaas ihruu eremble").split())
+# if (a<=b and b<=c):
+#     print("a,b,c")
+# elif (a<=c and c<=b):
+#     print("a,c,b")
+# elif (b<=a and a<=c):
+#     print("b,a,c")
+# elif (b<=c and c<=a):
+#     print("b,c,a")
+# elif (c<=a and a<=b):
+#     print("c,a,b")
+# else:
+#     print("c,a,b")
+
+
+2.
