@@ -345,6 +345,7 @@
 
 
 
+
 # 18.  `binary_search(numbers, target)` нэртэй функц бич.
 #       - Тоо олдвол индексийг буцаана.
 #       - Олдохгүй бол `-1` буцаана.
@@ -364,6 +365,7 @@
 # target = int(input("HAIH TOO UG: "))
 # print(binary_search(numbers,target))   
    
+
 
  
 # 19. Хэрэглэгчээс тоо авч, тухайн тоо жагсаалтад хэдэн удаа байгааг ол. Binary Search 
@@ -410,6 +412,7 @@
    
 
 
+
 # 20.
 # numbers = list(map(int, input("Toonuudaa oruul: ").split()))
 # target = int(input("Haih too: "))
@@ -425,7 +428,9 @@
 # else:
 #     linear_index = -1
 
+
 # # Binary Search
+
 # left = 0
 # right = len(numbers) - 1
 # binary_count = 0
