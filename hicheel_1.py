@@ -5,11 +5,15 @@
 # # total = a + b
 # # print("Нийт : ", total)
 
+
+
 # # 2
 # # a = 25
 # # b = 9
 # # total = a-b 
 # # print("нийт :", total) 
+
+
 
 # # 3
 # # a = 7 
@@ -17,11 +21,13 @@
 # # total = a*b
 # # print("нийт :", total) 
 
+
 # # 4
 # # a = 40
 # # b = 8
 # # total = a/b 
 # # print("нийт :", total) 
+
 
 # # 5
 # # a=20
@@ -29,20 +35,27 @@
 # # total=a+b
 # # print("нийт :", total) 
 
+
+
 # # a=20
 # # b=4
 # # total=a-b
 # # print("нийт :", total)
+
 
 # # a=20
 # # b=4
 # # total=a*b
 # # print("нийт :", total)
 
+
+
 # # a=20
 # # b=4
 # # total=a/b
 # # print("нийт :", total)
+
+
 
 # # 6
 # # length = 15
@@ -50,11 +63,15 @@
 # # total=length*width
 # # print("нийт :", total)
 
+
+
 # # 7
 # # length = 15
 # # width = 6
 # # total=(length+width)*2
 # # print("нийт :", total)
+
+
 
 # # 8
 # # a = 70
@@ -63,17 +80,23 @@
 # # total=(a+b+c)/3
 # # print("нийт :", total)
 
+
+
 # # 9
 # # price=2500
 # # count=4
 # # total=price+count
 # # print("нийт :", total)
 
+
+
 # # 10
 # # money = 20000
 # # price = 7500
 # # total=money-price
 # # print("нийт :", total)
+
+
 
 # # 11
 # # apple=1500
@@ -84,12 +107,15 @@
 # # print("нийт :", total)
 
 
+
 # # 12
 # # salary = 1500000
 # # bonus = 200000
 # # tax = 300000
 # # total=(salary+bonus)-tax
 # # print("нийт :", total)
+
+
 
 # # 13
 # # ticket=35000
@@ -99,12 +125,16 @@
 # # total=(ticket+hotel+food)*3
 # # print("нийт :", total)
 
+
+
 # # 14
 # # math = 85
 # # english = 90
 # # python = 95
 # # total=(math+english+python)/3
 # # print("нийт :", total)
+
+
 
 # # 15
 # # shirt=45000
@@ -116,6 +146,8 @@
 # # money=400000
 # # total=money-((shirt*2)+(pants*1)+(shoes*1))
 # # print("нийт :", total)
+
+
 
 
 # print(type("undurgongor"))
